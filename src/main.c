@@ -30,6 +30,11 @@ int main(){
                 printf("Digite dois numeros: ");
                 scanf("%d %d", &a, &b);
                 printf("Resultado: %d\n", div(&a,&b));
+                
+            case 5:
+                printf("Digite dois numeros: ");
+                scanf("%d %d", &a, &b);
+                printf("Resultado: %d\n", pot(&a,&b));
 
             case 0:
                 printf("Programa encerrado.\n");

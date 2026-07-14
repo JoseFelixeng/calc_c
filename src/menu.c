@@ -8,6 +8,7 @@ void menuPrincipal(void)
     printf("2 - Subtração\n");
     printf("3 - Multiplicação\n");
     printf("4 - Divisão\n");
+    printf("4 - Potenciação\n");
     printf("0 - Sair\n");
     printf("=================================\n");
     printf("Escolha uma opção: ");

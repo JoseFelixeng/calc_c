@@ -1,30 +1,29 @@
 #include <stdio.h>
 #include "funcoes.h"
 
-void soma(int *a, int *b){
-    printf("Operação Soma");
+# Soma 
+int soma(int *a, int *b){
     int &R;
     R = a + b; 
     return R
 }
 
-void sub(int *a, int *b){
-    printf("Operação Subtração");
+# Subtração
+int sub(int *a, int *b){
     int &R;
     R = a - b; 
     return R
 }
 
-void mult(int *a, int *b){
-    printf("Operação Multiplicação");
+# Multiplicação
+int mult(int *a, int *b){
     int &R;
     R = a * b; 
     return R
 }
 
-
-void div(int *a, int *b){
-    printf("Operação Subtração")
+# Divisão
+float div(int *a, int *b){
     int &R;
     R = a/b; 
 
@@ -32,5 +31,17 @@ void div(int *a, int *b){
         printf("Divisão por Zero encontrada!");
         break
    
+    return R
+}
+
+# Potenciação
+int pot(int *a, int *b){
+    
+    int &R = 1;
+
+    for(i=0; i < b; i++){
+        R *=a;
+    }
+     
     return R
 }
