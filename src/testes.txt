@@ -1,0 +1,22 @@
+===== RESULTADOS DOS TESTES AUTOMATIZADOS =====
+
+[PASSOU] soma(5,3)              | Esperado:    8.00000 | Obtido:    8.00000
+[PASSOU] soma(-2,7)             | Esperado:    5.00000 | Obtido:    5.00000
+[PASSOU] sub(10,4)              | Esperado:    6.00000 | Obtido:    6.00000
+[PASSOU] sub(3,9)               | Esperado:   -6.00000 | Obtido:   -6.00000
+[PASSOU] mult(6,7)              | Esperado:   42.00000 | Obtido:   42.00000
+[PASSOU] mult(-3,4)             | Esperado:  -12.00000 | Obtido:  -12.00000
+[PASSOU] divisao(10,4)          | Esperado:    2.50000 | Obtido:    2.50000
+[PASSOU] divisao(5,0) [zero]    | Esperado:    0.00000 | Obtido:    0.00000
+[PASSOU] pot(2,10)              | Esperado: 1024.00000 | Obtido: 1024.00000
+[PASSOU] pot(5,0)               | Esperado:    1.00000 | Obtido:    1.00000
+[PASSOU] perc(200,15%)          | Esperado:   30.00000 | Obtido:   30.00000
+[PASSOU] perc(50,50%)           | Esperado:   25.00000 | Obtido:   25.00000
+[PASSOU] raiz(16)               | Esperado:    4.00000 | Obtido:    4.00000
+[PASSOU] raiz(2)                | Esperado:    1.41421 | Obtido:    1.41422
+[PASSOU] raiz(0)                | Esperado:    0.00000 | Obtido:    0.00000
+[PASSOU] resto(10,3)            | Esperado:    1.00000 | Obtido:    1.00000
+[PASSOU] resto(20,5)            | Esperado:    0.00000 | Obtido:    0.00000
+
+===== RESUMO =====
+17 de 17 testes passaram.
